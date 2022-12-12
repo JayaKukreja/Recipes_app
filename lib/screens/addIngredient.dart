@@ -11,7 +11,7 @@ class AddIngredient extends StatefulWidget {
 
 class _AddIngredientState extends State<AddIngredient> {
   bool visibility = true;
-  int _count = 8;
+  int _count = 0;
   ScrollController listController = ScrollController();
   @override
   Widget build(BuildContext context) {
