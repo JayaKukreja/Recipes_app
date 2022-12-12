@@ -10,7 +10,7 @@ class AddIngredient extends StatefulWidget {
 }
 
 class _AddIngredientState extends State<AddIngredient> {
-  bool visibility = true;
+  bool visibility = false;
   int _count = 0;
   ScrollController listController = ScrollController();
   @override
