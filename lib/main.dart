@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:recipe_app/constants.dart';
-import 'package:recipe_app/finalScreen.dart';
-import 'package:recipe_app/loginScreen.dart';
+import 'package:recipe_app/screens/loginScreen.dart';
 
 void main() {
   runApp(const MyApp());

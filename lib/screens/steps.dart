@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:recipe_app/constants.dart';
-import 'package:recipe_app/finalScreen.dart';
+import 'package:recipe_app/screens/finalScreen.dart';
 import 'package:recipe_app/shared.dart';
 
 List<String> list = ["Person(s)", "Group(of 10)"];

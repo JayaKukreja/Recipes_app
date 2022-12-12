@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:recipe_app/addIngredient.dart';
 import 'package:recipe_app/constants.dart';
-import 'package:recipe_app/createRecipe.dart';
+import 'package:recipe_app/screens/addIngredient.dart';
+import 'package:recipe_app/screens/createRecipe.dart';
+import 'package:recipe_app/screens/steps.dart';
 import 'package:recipe_app/shared.dart';
-import 'package:recipe_app/steps.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({super.key});
