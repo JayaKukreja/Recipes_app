@@ -20,7 +20,7 @@ class _AddIngredientState extends State<AddIngredient> {
 
     return 
     Scaffold(backgroundColor: Colors.deepOrange[50],
-        // resizeToAvoidBottomInset: false,
+        resizeToAvoidBottomInset: false,
         floatingActionButton: CustomButton(
           TextButton(
             onPressed: () {

@@ -6,15 +6,15 @@ import 'package:recipe_app/shared.dart';
 import 'package:recipe_app/validator.dart';
 
 class LoginScreen extends StatelessWidget {
-  TextEditingController? emailController;
-  TextEditingController? passwordController;
+  final TextEditingController? emailController = TextEditingController();
+  final TextEditingController? passwordController = TextEditingController();
 
   LoginScreen({super.key});
-  
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(resizeToAvoidBottomInset: false,
+    return Scaffold(
+      resizeToAvoidBottomInset: false,
       body: Container(
         width: double.infinity,
         decoration: BoxDecoration(
@@ -46,8 +46,7 @@ class LoginScreen extends StatelessWidget {
                       height: 50.h,
                     ),
                     TextFieldRecipe(emailController, "Enter Email",
-                        Validator.validateEmail
-                        ),
+                        Validator.validateEmail),
                     SizedBox(
                       height: 30.h,
                     ),
@@ -60,30 +59,35 @@ class LoginScreen extends StatelessWidget {
                           minimumSize: const Size(600, 50),
                           backgroundColor:
                               const Color.fromRGBO(107, 28, 97, 1)),
-                      onPressed: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => const MainPage()));
-                      },
+                      // onPressed: () {
+                      //   Navigator.push(
+                      //       context,
+                      //       MaterialPageRoute(
+                      //           builder: (context) => const MainPage()));
+                      // },
+                      onPressed: () => Navigator.pushNamed(context, '/mainPage'),
                       child: Text("LOGIN",
                           style: TextStyle(
                               color: Colors.white,
                               fontSize: 20.sp,
                               letterSpacing: 1.5,
                               fontWeight: FontWeight.w300)),
-                    ),SizedBox(height: 30.h,),
-                       ElevatedButton(
+                    ),
+                    SizedBox(
+                      height: 30.h,
+                    ),
+                    ElevatedButton(
                       style: ElevatedButton.styleFrom(
                           minimumSize: const Size(600, 50),
                           backgroundColor:
                               const Color.fromRGBO(107, 28, 97, 1)),
-                      onPressed: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => const MainPage()));
-                      },
+                      // onPressed: () {
+                      //   Navigator.push(
+                      //       context,
+                      //       MaterialPageRoute(
+                      //           builder: (context) => const MainPage()));
+                      // },
+                      onPressed: () => Navigator.pushNamed(context, '/mainPage'),
                       child: Text("SIGN UP",
                           style: TextStyle(
                               color: Colors.white,
@@ -101,6 +105,4 @@ class LoginScreen extends StatelessWidget {
       ),
     );
   }
-
- 
 }

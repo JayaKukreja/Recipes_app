@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:recipe_app/constants.dart';
 import 'package:recipe_app/screens/loginScreen.dart';
+import 'package:recipe_app/screens/routing.dart';
 
 void main() {
   runApp(const MyApp());
@@ -31,7 +32,9 @@ class MyApp extends StatelessWidget {
               // is not restarted.
               primarySwatch: Colors.deepPurple,
               primaryColor: Constants.primary),
-          home: LoginScreen(),
+          // home: LoginScreen(),
+          initialRoute: '/',
+          onGenerateRoute: RouteGenerator.routeGenerator,
         );
       },
     );

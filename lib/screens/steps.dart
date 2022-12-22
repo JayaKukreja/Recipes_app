@@ -15,10 +15,10 @@ class Steps extends StatefulWidget {
 }
 
 class _StepsState extends State<Steps> {
-  final _prephourController = FixedExtentScrollController();
-  final _prepminuteController = FixedExtentScrollController();
-  final _cookhourController = FixedExtentScrollController();
-  final _cookminuteController = FixedExtentScrollController();
+  // final _prephourController = FixedExtentScrollController();
+  // final _prepminuteController = FixedExtentScrollController();
+  // final _cookhourController = FixedExtentScrollController();
+  // final _cookminuteController = FixedExtentScrollController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -214,7 +214,7 @@ class _StepsState extends State<Steps> {
                                               context,
                                               MaterialPageRoute(
                                                   builder: (context) =>
-                                                      FinalPage()));
+                                                      const FinalPage()));
                                         },
                                         child: Text(
                                           "No",
@@ -226,14 +226,14 @@ class _StepsState extends State<Steps> {
                                   backgroundColor: Constants.primary,
                                   title: Column(
                                     children: [
-                                      Text(
+                                      const Text(
                                         "Your Step was added successfully.",
                                         style: TextStyle(color: Colors.white),
                                       ),
                                       SizedBox(
                                         height: 20.h,
                                       ),
-                                      Text(
+                                      const Text(
                                         "Do you want to add more steps?",
                                         style: TextStyle(color: Colors.white),
                                       )

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "694531211891",
+    "project_id": "recipes-app-54e17",
+    "storage_bucket": "recipes-app-54e17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694531211891:android:3b762bafbc9aad2f0a6006",
+        "android_client_info": {
+          "package_name": "com.preet.recipe_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "694531211891-n4og3nashgaeav6lpckvpve5e7km97rh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGPUFOwG2HrXvgqpK8Gs-YofQ5eHYdVJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "694531211891-n4og3nashgaeav6lpckvpve5e7km97rh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

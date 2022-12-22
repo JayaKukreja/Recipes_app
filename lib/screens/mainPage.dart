@@ -4,7 +4,6 @@ import 'package:recipe_app/constants.dart';
 import 'package:recipe_app/screens/addIngredient.dart';
 import 'package:recipe_app/screens/createRecipe.dart';
 import 'package:recipe_app/screens/steps.dart';
-import 'package:recipe_app/shared.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({super.key});

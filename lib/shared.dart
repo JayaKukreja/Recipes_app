@@ -63,7 +63,7 @@ Widget CustomTextField({double? height, String? hintText,keyboardType}) {
 }
 
 Widget Hours(index) {
-  return Container(
+  return SizedBox(
     // color: Colors.blue,
     child: Text(
       index < 10 ? "0$index" : index.toString(),
@@ -73,7 +73,7 @@ Widget Hours(index) {
 }
 
 Widget Minutes(index) {
-  return Container(
+  return SizedBox(
     // color: Colors.blue,
     child: Text(
       index < 10 ? "0$index" : index.toString(),
